@@ -1,5 +1,6 @@
-const chk = document.querySelectorById('chk')
+function mudaTema() {
+  const dark = document.querySelector('.background');
+  const labelWhite = document.querySelector
 
-chk.addEventListener('change', () => {
-  document.body.classList.toggle('dark')
-})
+  dark.classList.toggle('dark');
+}
